@@ -11,7 +11,7 @@ int main() {
     for (ll i = 0; i < N; ++i) {
         ll t;
         cin >> t;
-        ll g = std::gcd(lcm, t);
+        ll g = gcd(lcm, t);
         lcm = lcm / g * t;
     }
 
